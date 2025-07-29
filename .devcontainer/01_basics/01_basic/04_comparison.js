@@ -1,3 +1,16 @@
-let name = "sudhir"
+// console.log(2>1);
+// console.log(2 >= 1);
+// console.log(2<1);
+// console.log(2 == 1);
+// console.log(2 !=1);
+//  console.log("2" < 1);
+//  console.log("2" >1);
 
-console.log(typeof name );
+//  console.log(null > 0);
+//  console.log(null == o);
+//  console.log(null >= 0);
+
+ console.log(undefined > 0 );
+ console.log(undefined == 0);
+ console.log(undefined <0);
+
