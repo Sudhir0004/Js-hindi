@@ -7,7 +7,7 @@ const score = 88
 const scorevalue= 55 
 const isloggedin = false
 
-const isloggedIn= false 
+
 const outsideTemp = null
 
  let userEmail;
