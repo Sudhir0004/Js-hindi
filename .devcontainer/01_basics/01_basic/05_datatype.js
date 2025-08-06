@@ -33,3 +33,24 @@ let myobJ = {
     console.log("Hello world");
  }
  console.log( typeof outsideTemp);
+
+//  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ video 10
+
+// stack memory (primitive ),heap (non primitive)
+ let myname=("sudhir")
+ let anothername = ("Rinkoo")
+ anothername= "Trader"
+ console.log(anothername);
+ console.log(myname);
+ let userone ={ 
+   email : "abc@gmail.com",
+   upi : "user@axis"
+
+ }
+ let usertwo = userone
+email: "dot@gmail.com"
+console.log(userone);
+console.log(usertwo);
+
+
+ 
