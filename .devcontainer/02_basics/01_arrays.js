@@ -26,10 +26,10 @@ const myn1 = myarr.slice(1,5)
 console.log("A",myn1);
 console.log(myn1);
 console.log("B",myn1);
-
+//splice
 const myn2 = myarr.splice(1,5) // splice never start with 0 where slice start with 0 in
 console.log("C",myarr);
 console.log(myn2);
 
-//splice
+
 
