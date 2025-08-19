@@ -15,12 +15,21 @@ mySym: "mykey1",
 
 }
  
-console.log(Jsuser.email)
-console.log(Jsuser["email"])
-console.log(Jsuser["full name"])
-console.log(typeof Jsuser[mySym])
+// console.log(Jsuser.email)
+// console.log(Jsuser["email"])
+// console.log(Jsuser["full name"])
+// console.log(typeof Jsuser[mySym])
 
 Jsuser.email ="sudhirparulac.in"
-    Object.freeze(Jsuser)
+    // Object.freeze(Jsuser)
 Jsuser.email ="sudhirpal@microsoft"
-console.log (Jsuser)
+// console.log (Jsuser);
+
+Jsuser.greeting=function(){
+    console.log("Hello js user");
+}
+Jsuser.greetingtwo=function(){
+    console.log('Hello js user,$ {this.name');
+}
+console.log(Jsuser.greeting());
+console.log(Jsuser.greetingtwo());
