@@ -1,10 +1,10 @@
 function saymyname(){
-console.log(S);
-console.log(U);
-console.log(D);
-console.log(H);
-console.log(I);
-console.log(R);
+// console.log(S);
+// console.log(U);
+// console.log(D);
+// console.log(H);
+// console.log(I);
+// console.log(R);
 
 }
 // saymyname()
@@ -29,4 +29,32 @@ function loginuserMessage(username="sam"){
     return'${username} just looged in'
 }
 // console.log(loginuserMessage("sudhir"))
-console.log(loginuserMessage("sudhir"));
+// console.log(loginuserMessage("sudhir"));
+
+//for shoping list cart where you dont know much item will cart there
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 2000))
+
+const user = {
+    username: "Sudhir",
+    prices: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+// handleObject(user);
+handleObject({
+username:"sudhir",
+price : 399
+
+});
+  const mynewArray=[400,200,500]
+function returnsecondvalue(getArray){
+return getArray[2]
+}
+console.log(returnsecondvalue(mynewArray));
