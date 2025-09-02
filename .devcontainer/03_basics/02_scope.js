@@ -4,15 +4,46 @@ let a=300
 if (true) {
     let a= 10
 const b=10   
-console.log("INNER:", a);
+// console.log("INNER:", a);
 }
 // console.log(a);
 // console.log(b);
-console.log(a);
+// console.log(a);
 
+ function one (){
+const username ="sudhir"
 
-for (let i = 0; i++ < array.length; i++) {
-    const element = array[i++];
+function two (){
+    const website = "youtube"
+    console.log(username);
     
 }
- 
+// console.log(website);
+two()
+ }
+//  one()
+
+if (true) {
+    const username= "sudhir"
+
+    if (username == "sudhir") {
+        const website ="website"
+        // console.log(username+website);
+        
+    }
+//    console.log(website);
+    
+}
+// console.log(username);
+
+//.................interesting
+
+console.log(addone(5))
+function addone (num){
+return  num  +  1
+}
+
+addtwo(5)
+const addtwo = function(num2){
+return num2+ 2
+}
