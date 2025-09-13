@@ -1,10 +1,12 @@
 //imediately Invoked function expresion (IIFE)
 
 (function chai (){
+    //name IFEE
 console.log('DB CONNECTED');
 }) ();
+// ; must used in two IFEE 
+ ( (name) => {
 
- ( function aurcode () {
     console.log('DB CONNECTED 2 ${name}');
     
 })('sudhir');
